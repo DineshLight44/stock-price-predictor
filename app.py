@@ -5,7 +5,7 @@ import pickle
 
 # Load model and scaler
 model = load_model(r'stock_rnn_model.h5')
-with open(r'D:\datasets\model\scaler.pkl', 'rb') as f:
+with open(r'scaler.pkl', 'rb') as f:
     scaler = pickle.load(f)
 
 # Streamlit app layout
