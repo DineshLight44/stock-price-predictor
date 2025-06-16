@@ -4,7 +4,7 @@ from keras.models import load_model
 import pickle
 
 # Load model and scaler
-model = load_model(r'D:\datasets\model\stock_rnn_model.h5')
+model = load_model(r'stock_rnn_model.h5')
 with open(r'D:\datasets\model\scaler.pkl', 'rb') as f:
     scaler = pickle.load(f)
 
